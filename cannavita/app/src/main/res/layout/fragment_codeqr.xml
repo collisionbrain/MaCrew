@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:weightSum="100"
+    android:gravity="center_vertical|center_horizontal">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="25"
+    android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:text="@string/codigo_usuario"
+            android:gravity="center"
+            android:layout_margin="25dp"
+            android:textColor="@color/green"/>
+
+</RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="75"
+            android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_camera_black_24dp"
+
+                    />
+
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>

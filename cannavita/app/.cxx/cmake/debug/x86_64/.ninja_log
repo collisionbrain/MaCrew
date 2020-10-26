@@ -1,0 +1,7 @@
+# ninja log v5
+0	4	0	clean	2b80183f51242300
+60	3640	1602631387	CMakeFiles/native-lib.dir/native-lib.cpp.o	a31805fb537cc134
+3641	8209	1602631391	/home/hugo/cannavita/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	ec6194db838c52c2
+0	19	0	clean	2b80183f51242300
+93	2816	1603315426	CMakeFiles/native-lib.dir/native-lib.cpp.o	a31805fb537cc134
+2816	7036	1603315430	/home/hugo/cannavita/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	ec6194db838c52c2

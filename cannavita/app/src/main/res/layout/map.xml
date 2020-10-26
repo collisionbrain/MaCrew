@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/white"
+    android:clickable="true" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center|right">
+
+    <ImageView
+            android:id="@+id/opt_final"
+            android:src="@drawable/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40" >
+         <ListView
+             android:id="@+id/list"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        >
+        <TextView
+            android:id="@+id/final_count"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="$10,000"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="40" >
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tilesource="Positron" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/marker"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+
+</LinearLayout>
+

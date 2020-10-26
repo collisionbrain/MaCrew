@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cannavid</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aceptar">Acepto condiciones</string>
+    <string name="denegar">No acepto las condiciones</string>
+
+    <string name="masculino">Hombre</string>
+
+    <string name="femenino">Mujer</string>
+    <string name="title_activity_seslfie">SelfieActivity</string>
+    <string name="codigo_usuario">Este es tu codigo de identidad</string>
+    <string name="escannea_producto">Escanea tu producto</string>
+
+
+</resources>

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center|right">
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:padding="25dp">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/videPresentation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"/>
+
+        <ImageView
+
+            android:id="@+id/imgPeoductInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:src="@drawable/before"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/custom_selector"
+                />
+            <View
+                android:layout_width="50dp"
+                android:layout_height="20dp"/>
+            <View
+                android:layout_width="50dp"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="20dp"/>
+
+            <ImageButton
+                android:id="@+id/opt_forw"
+                android:src="@drawable/next"
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/custom_selector"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

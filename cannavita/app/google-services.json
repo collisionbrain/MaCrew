@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572858113597",
+    "firebase_url": "https://cannavita-35531.firebaseio.com",
+    "project_id": "cannavita-35531",
+    "storage_bucket": "cannavita-35531.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572858113597:android:ed917af830152fc6675454",
+        "android_client_info": {
+          "package_name": "mx.cannavita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572858113597-0f46snmjqaehi7nrjg531t38be08m0g4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.cannavita",
+            "certificate_hash": "8cafbac6d30ecce75f954fa5d4e2debd03b3f189"
+          }
+        },
+        {
+          "client_id": "572858113597-7069sg7h1td53o2q6ee8ruugsbj80qr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMZD8-wQx_Jv1ql0qdj0ibxHEp_fETY1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572858113597-7069sg7h1td53o2q6ee8ruugsbj80qr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

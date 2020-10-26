@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/hugo/cannavita/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/hugo/Ndk/r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi --gcc-toolchain=/home/hugo/Ndk/r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/hugo/Ndk/r16b/sysroot  -Dnative_lib_EXPORTS -isystem /home/hugo/librerias/OpenCV-4.3/sdk/native/jni/include -isystem /home/hugo/Ndk/r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/hugo/Ndk/r16b/sources/android/support/include -isystem /home/hugo/Ndk/r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/hugo/Ndk/r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Os -DNDEBUG  -fPIC   -std=gnu++11 -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /home/hugo/cannavita/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/hugo/cannavita/app/src/main/cpp/native-lib.cpp"
+}
+]

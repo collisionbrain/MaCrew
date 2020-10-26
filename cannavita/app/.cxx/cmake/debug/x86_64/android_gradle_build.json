@@ -1,0 +1,85 @@
+{
+  "stringTable": {
+    "0": "/home/hugo/cannavita/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android --gcc-toolchain=/home/hugo/Ndk/r16b/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/hugo/Ndk/r16b/sysroot -Dnative_lib_EXPORTS -isystem /home/hugo/librerias/OpenCV-4.3/sdk/native/jni/include -isystem /home/hugo/Ndk/r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/hugo/Ndk/r16b/sources/android/support/include -isystem /home/hugo/Ndk/r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /home/hugo/Ndk/r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC -std=gnu++11"
+  },
+  "buildFiles": [
+    "/home/hugo/librerias/OpenCV-4.3/sdk/native/jni/abi-x86_64/OpenCVConfig.cmake",
+    "/home/hugo/Ndk/r16b/build/cmake/android.toolchain.cmake",
+    "/home/hugo/librerias/OpenCV-4.3/sdk/native/jni/abi-x86_64/OpenCVModules-release.cmake",
+    "/home/hugo/librerias/OpenCV-4.3/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/home/hugo/librerias/OpenCV-4.3/sdk/native/jni/abi-x86_64/OpenCVModules.cmake",
+    "/home/hugo/cannavita/app/src/main/cpp/CMakeLists.txt",
+    "/home/hugo/librerias/OpenCV-4.3/sdk/native/jni/OpenCVConfig.cmake"
+  ],
+  "cleanCommands": [
+    "/home/hugo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hugo/cannavita/app/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/hugo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/hugo/cannavita/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "buildCommand": "/home/hugo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/hugo/cannavita/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "buildType": "debug",
+      "toolchain": "1694919542",
+      "abi": "x86_64",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/hugo/cannavita/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/hugo/cannavita/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_calib3d.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_core.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_dnn.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_features2d.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_flann.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_gapi.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_highgui.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_imgcodecs.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_imgproc.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_ml.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_objdetect.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_photo.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_stitching.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_video.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_videoio.a",
+        "/home/hugo/Ndk/r16b/platforms/android-22/arch-x86_64/usr/lib64/liblog.so",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/liblibprotobuf.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libade.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_imgcodecs.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/liblibjpeg-turbo.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/liblibwebp.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/liblibpng.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/liblibtiff.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/liblibjasper.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libIlmImf.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libquirc.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_calib3d.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_features2d.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_flann.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_imgproc.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/staticlibs/x86_64/libopencv_core.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libtbb.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libcpufeatures.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libittnotify.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libippiw.a",
+        "/home/hugo/librerias/OpenCV-4.3/sdk/native/3rdparty/libs/x86_64/libippicv.a",
+        "/home/hugo/Ndk/r16b/sources/cxx-stl/llvm-libc++/libs/x86_64/libc++.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "1694919542": {
+      "cppCompilerExecutable": "/home/hugo/Ndk/r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

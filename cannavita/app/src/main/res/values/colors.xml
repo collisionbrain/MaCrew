@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00a651</color>
+    <color name="green">#00a651</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#000</color>
+    <color name="background_camera">#00a651</color>
+
+    <color name="selected">#12cad6</color>
+    <color name="unselected">#00a651</color>
+
+
+</resources>

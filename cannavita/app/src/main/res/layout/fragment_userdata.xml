@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:layout_gravity="center">
+
+    <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:hint="Nombre"
+                android:layout_marginLeft="39dp"
+                android:inputType="textCapCharacters|textNoSuggestions"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:text="HUGO MIGUEL"/>
+    <EditText
+            android:id="@+id/apellidos"
+            android:layout_below="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Apellidos"
+            android:layout_marginLeft="39dp"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:text="GALLARDO LOPEZ"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_gravity="center_vertical">
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:gravity="center_vertical"
+        android:orientation="horizontal">
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/masculino"
+                android:text="@string/masculino"
+                android:checked="true"
+                />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/femenino"
+                android:text="@string/femenino"
+                 />
+
+        </RadioGroup>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30">
+        <EditText
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Fecha de Nacimiento"
+            android:layout_marginLeft="39dp"
+            android:layout_alignParentTop="true"
+            android:inputType="number"
+            android:text="04/04/1990"/>
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_below="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Correo Electrónico"
+            android:layout_marginLeft="39dp"
+            android:text="collisionbrain@gmail.com"/>
+
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_below="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="Contacto Telefonico (10 Digitos)"
+            android:layout_marginLeft="39dp"
+            android:maxLength="13"
+            android:inputType="number"
+            android:singleLine="true"
+            android:text="5567873434"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
